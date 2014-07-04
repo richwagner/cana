@@ -1,0 +1,150 @@
+@mixin my_fontFace($face,$fileName) {
+  @font-face  {
+    font-family: '#{$face}';
+    src: url("fonts/#{$fileName}.eot"); 
+    src: url("fonts/#{$fileName}.eot?#iefix") format("embedded-opentype"), 
+         url("fonts/#{$fileName}.woff") format("woff"), 
+         url("fonts/#{$fileName}.ttf") format("truetype"), 
+         url("fonts/#{$fileName}.svg#svgFontName") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    }
+}
+
+@include my_fontFace('GothamRoundedBold','gothamrounded-bold');               
+@include my_fontFace('GothamRoundedLight','gothamrounded-light');              
+@include my_fontFace('GothamRoundedBook','gothamrounded-book');
+@include my_fontFace('GothamRoundedMedium','gothamrounded-medium'); 
+
+$boldFont: 'GothamRoundedBold', sans-serif;
+$lightFont: 'GothamRoundedLight', sans-serif;
+$bookFont: 'GothamRoundedBook', sans-serif; 
+$mediumFont: 'GothamRoundedMedium', sans-serif; 
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('fonts/icomoon.eot?drfrad');
+    src:url('fonts/icomoon.eot?#iefixdrfrad') format('embedded-opentype'),
+        url('fonts/icomoon.woff?drfrad') format('woff'),
+        url('fonts/icomoon.ttf?drfrad') format('truetype'),
+        url('fonts/icomoon.svg?drfrad#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-layers:before {
+    content: "\e60e";
+}
+.icon-organization:before {
+    content: "\f037";
+}
+.icon-plug:before {
+    content: "\f0d4";
+}
+.icon-steps:before {
+    content: "\f0c7";
+}
+.icon-home:before {
+    content: "\e600";
+}
+.icon-quill:before {
+    content: "\e601";
+}
+.icon-headphones:before {
+    content: "\e602";
+}
+.icon-bullhorn:before {
+    content: "\e614";
+}
+.icon-podcast:before {
+    content: "\e60f";
+}
+.icon-coin:before {
+    content: "\e603";
+}
+.icon-envelope:before {
+    content: "\e604";
+}
+.icon-location:before {
+    content: "\e610";
+}
+.icon-clock:before {
+    content: "\e615";
+}
+.icon-clock2:before {
+    content: "\e616";
+}
+.icon-alarm:before {
+    content: "\e617";
+}
+.icon-bubbles:before {
+    content: "\e605";
+}
+.icon-users:before {
+    content: "\e606";
+}
+.icon-user:before {
+    content: "\e618";
+}
+.icon-quotes-left:before {
+    content: "\e619";
+}
+.icon-powercord:before {
+    content: "\e61a";
+}
+.icon-arrow-down:before {
+    content: "\e61d";
+}
+.icon-arrow-down2:before {
+    content: "\e61e";
+}
+.icon-radio-checked:before {
+    content: "\e611";
+}
+.icon-mail:before {
+    content: "\e607";
+}
+.icon-facebook:before {
+    content: "\e608";
+}
+.icon-facebook2:before {
+    content: "\e609";
+}
+.icon-facebook3:before {
+    content: "\e60a";
+}
+.icon-twitter:before {
+    content: "\e60b";
+}
+.icon-twitter2:before {
+    content: "\e60c";
+}
+.icon-twitter3:before {
+    content: "\e60d";
+}
+.icon-tumblr:before {
+    content: "\e61b";
+}
+.icon-tumblr2:before {
+    content: "\e61c";
+}
+.icon-earth:before {
+    content: "\e612";
+}
+.icon-light-bulb:before {
+    content: "\e613";
+}
