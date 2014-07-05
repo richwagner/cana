@@ -27,10 +27,18 @@ define([
             this.discoverView = null; 
             this.footerExpanded = false; 
             this.render(); 
+            this.addDiscoverContent(); 
         },
 
-        createSubviews: function() {
-            this.discoverView = new DiscoverView(); 
+        addDiscoverContent: function() {
+            if (!this.discoverView) {
+                this.discoverView = new DiscoverView({el:$("#discoverContent")}); 
+            }
+        }, 
+
+        removeDiscoverContent: function() {
+            $("#discoverContent").empty();    
+            this.discoverView = null; 
         }, 
 
         render: function() {
@@ -45,8 +53,6 @@ define([
         show: function() {
             this.$el.show(); 
         }, 
-
-
 
         readMoreClickHandler: function(event) {
             event.preventDefault(); 

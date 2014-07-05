@@ -7,12 +7,12 @@
 
 <div class="navbar">
     <ul class="menu-list">
-        <li><a data-menu-top="0" href="#"><span class="icon-home"></span></a></li>
-        <li><a data-menu-top="1000" href="#"><span class="icon-layers"></span>Discover</a></li>
-        <li><a data-menu-top="7000" href="#"><span class="icon-plug"></span>Connect</a></li>
-        <li><a data-menu-top="8000" href="#"><span class="icon-users"></span>Serve</a></li>
-        <li><a data-menu-top="9000" href="#"><span class="icon-headphones"></span>Listen</a></li>
-        <li><a data-menu-top="10000" href="#"><span class="icon-coin"></span>Give</a></li>
+        <li><a id="homeLink" data-menu-top="0" href="#"><span class="icon-home"></span></a></li>
+        <li><a id="discoverLink" data-menu-top="1000" href="#"><span class="icon-layers"></span>Discover</a></li>
+        <li><a id="connectLink" data-menu-top="7000" href="#"><span class="icon-plug"></span>Connect</a></li>
+        <li><a id="serveLink" data-menu-top="8000" href="#"><span class="icon-users"></span>Serve</a></li>
+        <li><a id="listenLink" data-menu-top="9000" href="#"><span class="icon-headphones"></span>Listen</a></li>
+        <li><a id="giveLink" data-menu-top="10000" href="#"><span class="icon-coin"></span>Give</a></li>
     </ul>
 </div>
 
@@ -22,30 +22,47 @@
         <li><a id="footerTimes" title="Service times" href="#"><span class="icon-clock"></span></a></li>
         <li><a id="footerPastors" title="About our pastors"  href="#"><span class="icon-user"></span></a></li>
         <li><a id="footerContactUs" title="Contact us" href="#"><span class="icon-envelope"></span></a></li>
-        <li><a title="Facebook" href="http://facebook.com/canacommunity" target="_blank"><span class="icon-facebook"></span></a></li>
+        <li><a title="Pastor David's blog" href="http://canacommunity.tumblr.com" target="_blank"><span class="icon-tumblr"></span></a></li>        
+        <li><a title="Like us on Facebook" href="http://facebook.com/canacommunity" target="_blank"><span class="icon-facebook"></span></a></li>
         <li><a id="footerCollapseButton" title="Collapse" href="#"><span class="icon-arrow-down"></span></a></li>        
     </ul>    
     <div class="footer-content">
 
         <div id="locationContent" class="content-shelf">
-            <div class="title">Where We Are</div>
+            <div class="title">Where We Meet</div>
+
+            <div class="col">
+                <p>First floor auditorium, Temple Emanuel<br/>280 May Street, Worcester (across from Worcester State University.)</p>     
+                <p>Use the parking lot on Chandler Street across the street from the temple.</p>
+                <p>When you approach the temple, look for the Cana sign in the grass and enter at the door nearest it. You'll see "Stacey Cohen Youth Center" over the door. Once you enter the door, we meet in the auditorium straight ahead.</p>  
+                 <p><a href="http://maps.google.com/maps?ll=-68.021044,307.847706&z=0&t=m&hl=en-US&gl=US&mapclient=embed&q=280%20May%20St%20Worcester%2C%20MA%2001602" target="_blank">Get directions on Google Maps »</a>
+                 </p>
+            </div>
+
+            <div class="col">
+                <img src="images/temple.jpg"/>
+            </div>
             <div class="col">
                 <img src="images/church-door.jpg"/>
-            </div>
-            <div class="col">
-             <p>We meet at Temple Emanuel (280 May Street, across from Worcester State University). Please use the parking lot on Chandler Street across the street from the temple.</p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2952.5426233032676!2d-71.839794!3d42.266939!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e406bb8f217a5b%3A0x2523d1221177ef5e!2s280+May+St!5e0!3m2!1sen!2sus!4v1404482564893" width="540" height="200" frameborder="0" style="border:0"></iframe>
-            </div>
+             </div>
         </div>    
 
         <div id="timesContent" class="content-shelf">
             <div class="title">When We Meet</div>
+
+            <div class="col">
+             <p>Our Sunday morning church service starts at 10:00am and lasts around 90 minutes or so. We have nursery for young children and Sunday School for grades through 6th.</p>
+             <p>You are welcome to come join us before church for coffee and snacks.</p>
+            </div>
+
             <div class="col">
                 <img src="images/room.jpg"/>
             </div>
+
             <div class="col">
-             <p>Our Sunday morning church service starts at 10:00am and lasts around 90 minutes. You are welcome to come join us before church for coffee, snacks, and fellowship.</p>
+                <img src="images/wteam.jpg"/>
             </div>
+
         </div>    
 
         <div id="pastorsContent" class="content-shelf">
@@ -60,10 +77,25 @@
         <div id="contactUsContent" class="content-shelf">
             <div class="title">Contact Us</div>
             <div class="col">
-
+                <p>We would like hear from you. You can email us at <a href="mailto:info@canacommunity.org">info@canacommunity.org</a>. Or, you can also reach us by phone at 774-696-6244.</a>
             </div>
             <div class="col">
+
+                <p><span>Mailing Address</span><br/>
+                PO Box 926<br/>
+                Rutland, MA 01543<br/>
+                </p>
+
+                <p><span>Building Address</span><br/>
+                Temple Emanuel<br/>
+                280 May St.<br/>
+                Worcester MA 01602</p>
+
             </div>
+
+           <div class="col">
+           </div> 
+
         </div>    
 
 
@@ -123,176 +155,10 @@
 </div>
 
 
-<!-- come and live --> 
-
-<div id="discoverComeAndShare"
-     class="sublayer discover-text" 
-     data-0="top:100%" 
-     data-1000="top:30%"
-     data-2000="top:-70%">
-    <p>Cana is a space where you can 
-    <span>come and live</span>, even if you don't 
-    want to "go to church"</p>
-    <div id="readMoreComeAndShare" class="readmore-text">read more <img src="images/read-more-arrow.png"/></div>
-</div>
-
-<div id="overlayComeAndShare"
-     class="sublayer content-overlay" 
-     data-0="left:100%">
-
-     <div id="closeComeAndShare" class="close-button"></div>
-    
-    <h2>Come &amp; Live</h2>
-
-    <p>We desire to have a space where people can go who, for whatever reason, cannot bring themselves to go to the churches that already exist.</p>
-
-    <p>Perhaps they have become disillusioned with the traditional church of their youth or have been put off by the way politics have quietly found a place in many pulpits. Some people have been genuinely hurt by the decidedly human side of a church they once belonged to, or they just cannot get comfortable with the natural exclusiveness of many denominations. And others remain skeptical of religion in general. They may have an honest curiosity of God but cannot seem to settle in any of the more common church environments. It is our vision to create a space in which even the most disillusioned, the most hurt, the most skeptical can be comfortable.</p>
-
-    <p>We have found that many persons retain a desire to worship God, celebrate Christ, satisfy their curiosity of the Divine, or be in community despite their misgivings about church in general. Cana Community strives to welcome these fellow sojourners and meet them where they are at. Christ welcomed everyone to table in such a way it was as if He said, “come, just as you are, with all your doubts and questions and insecurities, with all your failures and skepticism, with your dirty hands and soiled hearts. Come to My table and eat with Me. My bread will feed your hungry body, My wine will cleanse your soul.”</p>
-</div>
-
-<!-- community driven --> 
-
-<div id="discoverCommunity"
-     class="sublayer discover-text" 
-     data-1000="top:100%" 
-     data-1200="top:100%"
-     data-2000="top:30%"
-     data-3000="top:-70%">
-    <p>Cana is <span>community</span> driven and <span>community</span> led.</p>    
-    <div id="readMoreCommunity" class="readmore-text">read more <img src="images/read-more-arrow.png"/></div>
-</div>
-
-<div id="overlayCommunity"
-     class="sublayer content-overlay" 
-     data-0="left:100%">
-
-     <div id="closeCommunity" class="close-button"></div>
-    
-    <h2>Community Driven and Community Led</h2>
-
-    <p>While we recognize the value of the top down leadership model, we subscribe to a broader model where we all lead and we all follow. We are all disciples of Christ, or would be disciples, or just curious observers who want to walk side by side on this earthly pilgrimage. We all have strengths and weaknesses, wisdom and foolishness, confidences and uncertainty. Each one has something profound to offer the community and we encourage such sharing. There is no one particular “answer man” here. If you need, come and take. If you have, come and give.</p>
-
-<p>Naturally, this is an extremely challenging model. However, we seek to be constantly aware of our own personal need for Grace which inspires us to extend grace to others. It is in this prayerful spirit of meekness, patience and humility that we believe this model of community can and does work.</p>
-
-</div>
 
 
-<!-- old/new --> 
+<div id="discoverContent"></div>
 
-<div id="discoverOldNew"
-     class="sublayer discover-text" 
-     data-2000="top:100%" 
-     data-2200="top:100%"
-     data-3000="top:30%"
-     data-4000="top:-70%">
-    <p>Cana brings together the <span>old</span> and <span>new</span>.</p>    
-    <div id="readMoreOldNew" class="readmore-text">read more <img src="images/read-more-arrow.png"/></div>
-</div>
-
-<div id="overlayOldNew"
-     class="sublayer content-overlay" 
-     data-0="left:100%">
-
-     <div id="closeOldNew" class="close-button"></div>
-    
-    <h2>Integration the Old &amp; New</h2>
-
-    <p>We have discovered that many people grow weary of the Christian tradition they were raised in but not of God. Unfortunately in abandoning their own heritage, they often cannot find another tradition to be comfortable in and so they relinquish involvement in church altogether. Often this is a result of such extreme cultural swings from one church to another. This is not to diminish that, as these radically different cultures work well for the loyal participants and exist for a reason.</p>
-
-<p>But at Cana Community we borrow from many Christian traditions because we believe the familiar together with the unusual creates an environment that allows persons from many different backgrounds to feel at home in our community. This is especially true of our main worship service. It is a time when the liturgy and customs of the old (orthodox/traditional) blend with the music and spirit of the new (non- denominational/evangelical) in such a way that persons from any branch of Christianity would all at once be comfortable with what they recognize and be gently challenged by what is new.</p>
-
-</div>
-
-
-<!-- love God/Others --> 
-
-<div id="discoverLove"
-     class="sublayer discover-text" 
-     data-3000="top:100%" 
-     data-3200="top:100%"
-     data-4000="top:30%"
-     data-5000="top:-70%">
-    <p>Cana is committed to <span>loving</span> God and <span>loving</span> others.</p>    
-    <div id="readMoreLove" class="readmore-text">read more <img src="images/read-more-arrow.png"/></div>
-</div>
-
-<div id="overlayLove"
-     class="sublayer content-overlay" 
-     data-0="left:100%">
-
-     <div id="closeLove" class="close-button"></div>
-    
-    <h2>Loving God &amp; Loving Others</h2>
-
-    <p>We want to be people who love. Not in some theoretical or emotional way do we strive to love, but with action, self giving, hard work and much sacrifice.</p>
-
-  <p>Our teaching and studying is wholly concerned with examining the scripture in light of this commandment. We believe Christ when He said: “On these two commandments depend the whole Law and the Prophets”, (Matthew 22:40). Therefore we expect to find the Who, what, when, where and why of this throughout the Bible. In fact, we believe the Bible is designed through God’s inspiration to reveal this universal truth. It is our belief that God created us for this, sent His son Jesus to teach us this and to lay down His life to free us to this, and gave us his Holy Spirit to enable us for this.
-</p>
-  <p>Our conversations are designed to further our understanding of this command to love one another. We are engaged in an ongoing dialogue through which we encourage, inspire, and challenge one and all to love the other. And this other is everyone. Certainly the other is the oppressed and marginalized of our greater world. The other is also the poor and outcaste within our own society. But ultimately the other is anyone who is our neighbor at any given moment. Often the most pressing need of love today is in the form of forgiveness, understanding and acceptance that so many crave, yet so many are denied.</p>
-
-  <p>Our actions are based on the firm conviction that Christ loved and so should we. “By this all men will know that you are My disciples, if you have love for one another” (John 13:35). Here at Cana Community we want to be known in this way. Of course we do fail at times but remain committed to the overriding belief that authentic human being loves.</p>
-
-<!--   <p>St Francis said, “preach the gospel at all times, and only when absolutely necessary, use words”. Our community outreach (both local and worldwide) follows this sentiment. We are constantly moving to love others in actions of feeding and clothing the poor, visiting the sick, giving voice to the marginalized, taking up the cause of the oppressed, and sharing grace in an all too often graceless age.</p> -->
-
-</div>
-
-<!-- Division --> 
-
-<div id="discoverDivision"
-     class="sublayer discover-text" 
-     data-4000="top:100%" 
-     data-4200="top:100%"
-     data-5000="top:30%"
-     data-6000="top:-70%">
-    <p>Cana yearns to stay away from <span>doctrinal divisiveness</span> that has always plagued churches.</p>    
-    <div id="readMoreDivision" class="readmore-text">read more <img src="images/read-more-arrow.png"/></div>
-</div>
-
-<div id="overlayDivision"
-     class="sublayer content-overlay" 
-     data-0="left:100%">
-
-     <div id="closeDivision" class="close-button"></div>
-    
-    <h2>Avoiding Divisiveness</h2>
-
-    <p>One of the most common ways people tend to define a church community is through the doctrines they profess. Then this definition is used to judge one particular church over and against another. It is in this way that through the centuries Christianity has become a much divided religion. Naturally, this is not to say that all division is blatantly deconstructive. Christ’s own metaphor of the Kingdom of God being like a large tree in which all the birds of the air come to nest may have been a haunting but tender prophecy of this very present reality. Division may not be the Divine ideal, but certainly it has not left a too small tree.</p>
-
-<p>Still, at Cana Community we are a community of believers who want to remain, as much as humanly possible, removed from this doctrinal divisiveness. We are happy to be a part of the grand tree that is Christianity but do not want to try to establish our own branch, or graft onto one that already exists. We are too much of a hybrid anyway; borrowing from so many branches that strict definition eludes us. We would rather cling to the Christ and His purposes than to try to be another voice in the already crowded debate over doctrine.</p>
-
-<p>Of course, we are thankful for the debate. It has been going on for two thousand years and has resulted in giving the Christian faith some very much needed guidance. The men and women who have been responsible for refining doctrine have been invaluable to the journeys of countless pilgrims. Our thanks for them, and respect of them, will not diminish. But we at Cana Community are called as a group of followers of Christ to a different mission.</p>
-
-</div>
-
-
-<!-- Communion --> 
-
-<div id="discoverCommunion"
-     class="sublayer discover-text" 
-     data-5000="top:100%" 
-     data-5200="top:100%"
-     data-6000="top:30%"
-     data-7000="top:-70%">
-    <p>Cana breaks <span>bread</span> together each week.</p>    
-    <div id="readMoreCommunion" class="readmore-text">read more <img src="images/read-more-arrow.png"/></div>
-</div>
-
-<div id="overlayCommunion"
-     class="sublayer content-overlay" 
-     data-0="left:100%">
-
-     <div id="closeCommunion" class="close-button"></div>
-    
-    <h2>Breaking Bread Together</h2>
-
-    <p>On the last night that Jesus sat at table He shared a meal with His disciples. And then, “He took some bread, gave thanks, He broke it, and gave it to them saying, ‘This is My body which is given for you; do this in remembrance of me.’ And in the same way He took the cup, saying, ‘This cup which is poured out for you is the new covenant in my blood.’</p>
-
- <p>At Cana Community we want to honor this teaching of the Christ to break bread and share wine. This table is known by many names: The Lord’s Supper, Communion, The Eucharist, etc. We like Eucharist because it simply means “Thanksgiving” and it is at this table that we are reminded of why we are most thankful: Christ’s willing sacrifice of self that we might have life and, as He said, have it “more abundantly”.</p>
-
- <p>By making The Eucharist central to our worship service, we believe we are accomplishing many important things. First, we are following His example and there is no greater example for human being than that of Jesus. Second, we are glorifying God by celebrating on a regular basis His great love for us. Third, by sitting at table every week, we have an opportunity to remember how much we need His Grace, rely on His forgiveness, and enter reality through His love. And fourth, it is a constant opportunity to seek God’s Mercy and be cleansed of our failures to live into the kingdom.</p>
-
-</div>
 
 
 
@@ -353,6 +219,24 @@
      Listen
 </div>
 
+<div id="listenContent"
+    class="sublayer section-page"
+    data-0="top:0%;"
+    data-9000="top:0%"
+    data-10000="top:-100%">
+
+    <h2><span class="icon-headphones"></span>Podcast</h2>
+
+    <div class="podcast-buttons">
+        <a class="square-button" href="https://itunes.apple.com/us/podcast/canacast-by-cana-community/id873414885?mt=2" target="_blank">Subscribe Using iTunes</a>
+        <a class="square-button" href="https://dl.dropboxusercontent.com/u/2405581/cana/canapodcast.rss" target="_blank">Subscribe Using RSS</a>
+    </div>
+
+    <p>Each week you can listen to the Sunday morning message with your iPhone, other smartphone, portable music device, or personal computer through our free <span class="bold-text">CanaCast podcast</span>. A podcast is an audio file that you can download or stream from the internet. When you subscribe to CanaCast, you can have episodes downloaded for you automatically with a Podcast app on your  smartphone or <a href="http://www.apple.com/itunes/" target="_blank">iTunes</a> on your computer.</p>
+
+</div>
+
+
 <!-- GIVE --> 
 
 <div id="giveBackground" 
@@ -375,11 +259,11 @@
     data-0="top:0%;"
     data-10000="top:0%">
 
-    <h2>Give Online</h2>
+    <h2><span class="icon-coin"></span>Giving &amp; Tithing</h2>
+
+    <a class="square-button giving-button" href="https://newhopefellowship.securegive.com/SG/WebOnline/Home/Index?WO=newhopefellowship" target="_blank">Give Online</a>
 
     <p>Whether you consider Cana your church home or are a friend of Cana, you can give online through our secure donation web service. Online giving is a great way to remain consistent and faithful in your stewardship whether you can make it on Sunday morning or not. To begin, click the “Give Online” button below.</p>
-
-    <a class="square-button" href="https://newhopefellowship.securegive.com/SG/WebOnline/Home/Index?WO=newhopefellowship" target="_blank">Give Online</a>
 
 
 </div>

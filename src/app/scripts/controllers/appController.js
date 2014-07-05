@@ -37,7 +37,37 @@ define([
                 easing: 'sqrt', 
                 duration: function(currentTop, targetTop) {
                     return 500;
-                }
+                },
+                handleLink: function(link) {
+                    if (link.id == "homeLink") {
+                        self.mainView.removeDiscoverContent();
+                        return 0;  
+                    }
+                    else if (link.id == "discoverLink") {
+                        setTimeout(function(){
+                           self.mainView.addDiscoverContent();
+                            self.invalidateLayout(); 
+                            self.parallaxScroller.refresh();                         
+                        }, 500); 
+                        return 1000; 
+                    }
+                    else if (link.id == "connectLink") {
+                        self.mainView.removeDiscoverContent();
+                        return 7000;  
+                    }
+                    else if (link.id == "serveLink") {
+                        self.mainView.removeDiscoverContent();
+                        return 8000;  
+                    }
+                    else if (link.id == "listenLink") {
+                        self.mainView.removeDiscoverContent();
+                        return 9000;  
+                    }
+                    else if (link.id == "giveLink") {
+                        self.mainView.removeDiscoverContent();
+                        return 10000;  
+                    }
+                }                
             }); 
 
             // Re-renders the entire skrollr contents when the window resizes. 
@@ -56,8 +86,14 @@ define([
                     self.collapseReadMore(self.currentReadMoreOverlay); 
                 }
 
-                if (top >= 1000 && top < 1300) {
+                if ((top >= 1000 && top < 1200) || (top < 7000 && top > 6000)) {
+                    if (!self.mainView.discoverView) {
+                        self.mainView.addDiscoverContent(); 
+                        self.invalidateLayout(); 
+                        self.parallaxScroller.refresh();                            
+                    }
                 }
+
 
             }); 
             this.invalidateLayout();                

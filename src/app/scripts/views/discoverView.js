@@ -7,7 +7,7 @@ define([
 
     var DiscoverView = Backbone.View.extend({
 
-        el: $("#discoverContainer"), 
+        /*el: $("#discoverContainer"), */
 
         template: _.template( DiscoverTemplate ),
 
