@@ -211,6 +211,27 @@ body {
     height: 100%; 
     font-family: $lightFont;
     font-size: 18px; 
+    &.full-page {
+        width: 100%;
+        background:url(../images/content-full-yellow-bg.png) no-repeat;
+        background-size: 100% 100%;  
+        //background-color: $white; 
+        color: $darkGray; 
+        .col {
+            float: left; 
+            width: 48%; 
+            margin-top: 3%; 
+            h2 {
+                margin-top: 0px;  
+            }
+            &.small-text {
+                font-size: 16px; 
+            }
+            &.large-text {
+                font-size: 20px; 
+            }
+        }        
+    }
     .overlay-inner {
         position: relative; 
         width: 100%; 
@@ -228,7 +249,7 @@ body {
         margin-left: 50px; 
         margin-right: 50px; 
     }
-    .close-button {
+    .close-button, .full-close-button {
         cursor: pointer; 
         position: absolute; 
         top: 20px; 

@@ -53,19 +53,19 @@ define([
                     }
                     else if (link.id == "connectLink") {
                         self.mainView.removeDiscoverContent();
-                        return 7000;  
+                        return 8000;  
                     }
                     else if (link.id == "serveLink") {
                         self.mainView.removeDiscoverContent();
-                        return 8000;  
+                        return 9000;  
                     }
                     else if (link.id == "listenLink") {
                         self.mainView.removeDiscoverContent();
-                        return 9000;  
+                        return 10000;  
                     }
                     else if (link.id == "giveLink") {
                         self.mainView.removeDiscoverContent();
-                        return 10000;  
+                        return 11000;  
                     }
                 }                
             }); 
@@ -81,12 +81,12 @@ define([
             // Handler for context-sensitive menus, etc. 
             Backbone.on("beforeRender", function(event){
                 var top = event.curTop; 
-                //console.log("top=" + top); 
+                console.log("top=" + top); 
                 if (self.currentReadMoreOverlay != "") {
                     self.collapseReadMore(self.currentReadMoreOverlay); 
                 }
 
-                if ((top >= 1000 && top < 1200) || (top < 7000 && top > 6000)) {
+                if ((top >= 700 && top < 1002) || (top < 7000 && top > 6000)) {
                     if (!self.mainView.discoverView) {
                         self.mainView.addDiscoverContent(); 
                         self.invalidateLayout(); 
@@ -130,6 +130,35 @@ define([
             $("#scrollIndicator").fadeOut(); 
             $(".navbar").fadeOut(); 
         },  
+
+        expandFullPageOverlay: function(id) {
+
+            var root = id.replace("readMore", ""); 
+            var overlaySel = "overlay" + root; 
+
+            $("#" + overlaySel).animate({
+                left: "0%"
+                }, 1000, function(){                                                  
+            });  
+
+
+            $("#scrollIndicator").fadeOut(); 
+            $(".navbar").fadeOut(); 
+        }, 
+
+        collapseFullPageOverlay: function(id) {
+            var self = this; 
+            var root = id.replace("readMore", ""); 
+            var overlaySel = "overlay" + root; 
+
+            $("#" + overlaySel).animate({
+                left: "100%"
+                }, 750, function(){    
+                    $("#scrollIndicator").fadeIn(); 
+                    $(".navbar").fadeIn();                                                                
+            });             
+        }, 
+
 
         collapseReadMore: function(id) {
             var self = this; 

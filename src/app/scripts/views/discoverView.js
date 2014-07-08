@@ -13,7 +13,10 @@ define([
 
         events: {  
             'click .readmore-text' : 'readMoreClickHandler', 
-            'click .close-button' : 'closeButtonClickHandler'             
+            'click .close-button' : 'closeButtonClickHandler', 
+            'click .full-close-button' : 'fullCloseButtonClickHandler', 
+            'click #readMoreSOF' : 'statementOfFaithClickHandler', 
+            'click #readMoreWhyCana' : 'whyCanaClickHandler'                        
         }, 
 
 
@@ -43,12 +46,31 @@ define([
             APP.appController.expandReadMore(id); 
         }, 
 
+        statementOfFaithClickHandler: function(event) {
+            event.preventDefault(); 
+            var id = event.currentTarget.id;
+            APP.appController.expandFullPageOverlay(id); 
+        }, 
+
+        whyCanaClickHandler: function(event) {
+            event.preventDefault(); 
+            var id = event.currentTarget.id;
+            APP.appController.expandFullPageOverlay(id); 
+        }, 
+
         closeButtonClickHandler: function(event) {
             event.preventDefault(); 
             var id = event.currentTarget.id;
             id = id.replace("close", "readMore"); 
             APP.appController.collapseReadMore(id); 
-        }           
+        },
+
+        fullCloseButtonClickHandler: function(event) {
+            event.preventDefault(); 
+            var id = event.currentTarget.id;
+            id = id.replace("close", "readMore"); 
+            APP.appController.collapseFullPageOverlay(id); 
+        }                      
 
     }); 
 
