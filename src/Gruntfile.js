@@ -26,21 +26,26 @@ module.exports = function (grunt) {
     };
 
     /* Under yeomanConfig declaration */
-    /* grunt.loadNpmTasks('grunt-gh-pages'); */
+    grunt.loadNpmTasks('grunt-gh-pages'); 
 
     grunt.initConfig({
+        'gh-pages': {
+            options: {
+                base: 'dist',
+                user: {
+                    name: 'Rich Wagner',
+                    email: 'richwagner.me@gmail.com'
+                }
+            },
+
+            src: ['**']
+        },        
         yeoman: yeomanConfig,
         watch: {
             options: {
                 nospawn: true,
                 livereload: true
-            },
-            /* 'gh-pages': {
-                options: {
-                  base: 'dist'
-                },
-                src: ['**']
-            }, */            
+            },          
             compass: {
                 files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
                 tasks: ['compass']
@@ -354,8 +359,8 @@ module.exports = function (grunt) {
         'uglify',
         'copy',
         'rev',
-        'usemin'/*,
-        'gh-pages'*/        
+        'usemin',
+        'gh-pages'        
     ]);
 
     grunt.registerTask('default', [
