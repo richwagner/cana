@@ -109,6 +109,7 @@ define([
             $(".vertical-title").css("width", $(window).height() + "px"); 
             $(".vertical-title").fitText(0.7); 
             $(".vertical-title").css("left", $(".vertical-title").css("font-size"));  
+
         },
 
         expandReadMore: function(id) {
@@ -135,13 +136,19 @@ define([
 
             var root = id.replace("readMore", ""); 
             var overlaySel = "overlay" + root; 
+            var discoverSel = "discover" + root; 
+
+            $("#discoverMore").animate({
+                left: "-100%"
+                }, 1000, function(){                                                  
+            });   
 
             $("#" + overlaySel).animate({
                 left: "0%"
                 }, 1000, function(){                                                  
             });  
 
-
+            $("#discoverVertical").fadeOut();
             $("#scrollIndicator").fadeOut(); 
             $(".navbar").fadeOut(); 
         }, 
@@ -151,9 +158,15 @@ define([
             var root = id.replace("readMore", ""); 
             var overlaySel = "overlay" + root; 
 
+           $("#discoverMore").animate({
+                left: "0%"
+                }, 750, function(){                                                  
+            });   
+
             $("#" + overlaySel).animate({
                 left: "100%"
                 }, 750, function(){    
+                    $("#discoverVertical").fadeIn();
                     $("#scrollIndicator").fadeIn(); 
                     $(".navbar").fadeIn();                                                                
             });             

@@ -14,7 +14,6 @@
         display: inline-block; 
         text-transform: uppercase; 
         font-family: $boldFont; 
-        font-size: 20px; 
         letter-spacing: 1px; 
         list-style-type:none;
         margin:0;
@@ -43,8 +42,13 @@
                 height: 33px; 
                 line-height: 33px; 
                 padding-bottom: 5px; 
+                font-size: 12px; 
                 span {
+                    font-size: 20px; 
                     padding-right: 2px; 
+                    vertical-align: top; 
+                    margin-top: 4px; 
+                    display: inline-block; 
                 }
             }   
         }

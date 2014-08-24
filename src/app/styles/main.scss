@@ -1,6 +1,7 @@
 $level1000: 100000; 
 $level2000: 90000; 
 $level3000: 80000; 
+$level3001: 80001; 
 $level4000: 70000; 
 $level5000: 60000; 
 $level5001: 60001; 
@@ -25,6 +26,7 @@ $layerW: 70000;
 $layerX: 80000;     
 $layerY: 900000;  
 $layerZ: 1000000; 
+$layerZZ: 2000000; 
 
 $white: #ffffff; 
 $black: #000000; 
@@ -93,6 +95,11 @@ body {
     z-index: $level3000;         
 }
 
+#connectContent {
+    z-index: $level3001;   
+    min-height: 1700px; 
+}
+
 #serveBackground {
     background:url(../images/serve-bg.jpg) no-repeat;
     -webkit-background-size: cover;
@@ -126,7 +133,7 @@ body {
 
 
 #giveBackground {
-    background:url(../images/people-bg.jpg) no-repeat;
+    background:url(../images/giving2-bg.jpg) no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -206,6 +213,7 @@ body {
     background:url(../images/overlay.png) no-repeat;
     background-size: 100% 100%;      
     position: absolute; 
+    z-index: $layerZZ; 
     left: 100%; 
     width: 50%; 
     height: 100%; 
@@ -213,10 +221,9 @@ body {
     font-size: 18px; 
     &.full-page {
         width: 100%;
-        background:url(../images/content-full-yellow-bg.png) no-repeat;
-        background-size: 100% 100%;  
-        //background-color: $white; 
-        color: $darkGray; 
+        //background:url(../images/content-full-yellow-bg.png) no-repeat;
+        //background-size: 100% 100%;  
+        //color: $darkGray; 
         .col {
             float: left; 
             width: 48%; 
@@ -240,13 +247,13 @@ body {
     }
     h2 {
         margin-top: 100px; 
-        margin-left: 50px; 
+        margin-left: 70px; 
         margin-right: 50px;        
         font-family: $boldFont; 
         text-transform: uppercase; 
     }
     p {
-        margin-left: 50px; 
+        margin-left: 70px; 
         margin-right: 50px; 
     }
     .close-button, .full-close-button {
@@ -294,6 +301,38 @@ body {
         margin-bottom: 20px;     
 }
 
- 
+.connect-row {
+    display: block;
+    width: 100%; 
+    overflow: hidden; 
+    margin-top: 20px;     
+}
+
+.connect-row:after {
+    display: block; 
+    clear: both; 
+}
+
+.connect-block {
+    //float: left; 
+    //margin-right: 20px;
+    display: block; 
+    width: 70%; 
+    border-radius: 10px; 
+    border: 1px solid #ffffff; 
+    padding: 15px;  
+    margin-bottom: 20px; 
+    p {
+        font-size: 16px; 
+        margin-left: 100px; 
+    }
+} 
+
+.large-connect-icon {
+    float: left; 
+    margin: 5px;
+    //margin-right: 20px; 
+    font-size: 70px !important; 
+}
 @import 'skrollr';
 
