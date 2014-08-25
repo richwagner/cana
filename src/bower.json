@@ -11,7 +11,8 @@
     "modernizr": "~2.7.1",
     "skrollr": "~0.6.26",
     "skrollr-menu": "~0.1.12",
-    "FitText.js": "*"
+    "FitText.js": "*",
+    "jquery.html5loader": "~1.7.0"
   },
   "devDependencies": {}
 }

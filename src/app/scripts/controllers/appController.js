@@ -2,10 +2,12 @@ define([
     'underscore',
     'backbone', 
     'fitText', 
+    'html5loader',
+    'html5Circular',    
     'skrollr',  
     'skrollrmenu',
     'views/mainView'
-], function( _, Backbone, fitText, skrollr, skrollrmenu, MainView) {
+], function( _, Backbone, fitText, html5loader, html5Circular, skrollr, skrollrmenu, MainView) {
 
     var AppController = Backbone.Model.extend({
 
@@ -15,8 +17,18 @@ define([
         initialize: function() {
             var self = this; 
 
-            this.lastHeight = 8911; 
-            this.currentReadMoreOverlay = ""; 
+            this.loaderAnimation = $("#html5Loader").LoaderAnimation({
+                onComplete:function(){
+                }
+            });
+
+            $.html5Loader({
+                  filesToLoad: "data/preload.json", 
+                  onBeforeLoad: function(){},
+                  onComplete: function() {},
+                  onElementLoaded: function(obj, elm) {},
+                  onUpdate: self.loaderAnimation.update
+            });
 
             this.mainView = new MainView(); 
 
@@ -82,9 +94,6 @@ define([
             Backbone.on("beforeRender", function(event){
                 var top = event.curTop; 
                 console.log("top=" + top); 
-                if (self.currentReadMoreOverlay != "") {
-                    self.collapseReadMore(self.currentReadMoreOverlay); 
-                }
 
                 if ((top >= 700 && top < 1002) || (top < 7000 && top > 6000)) {
                     if (!self.mainView.discoverView) {
@@ -98,7 +107,6 @@ define([
             }); 
             this.invalidateLayout();                
             this.parallaxScroller.refresh(); 
-
         },  
 
         beforeParallaxRender: function(event){
@@ -110,10 +118,21 @@ define([
             $(".vertical-title").fitText(0.7); 
             $(".vertical-title").css("left", $(".vertical-title").css("font-size"));  
 
+            var h = $(window).height() - 40 - 36; 
+            $(".overlay-inner").css("height",  h+"px"); 
+
+            // if ( $(window).height() < 1200) {
+            //   $("#mainTitle").css("font-size", )  
+            // }
+
+            //{ minFontSize: '10px', maxFontSize: '80px' }
+            $("#mainTitle").fitText(1.6, { minFontSize: '10px', maxFontSize: '80px' }); 
+
+
         },
 
         expandReadMore: function(id) {
-            this.currentReadMoreOverlay = id; 
+            var self = this; 
             var root = id.replace("readMore", ""); 
             var overlaySel = "overlay" + root; 
             var discoverSel = "discover" + root; 
@@ -125,7 +144,8 @@ define([
 
             $("#" + discoverSel).animate({
                 left: "-100%"
-                }, 1000, function(){                                                  
+                }, 1000, function(){
+                    self.disableScrolling();                                                   
             });             
 
             $("#scrollIndicator").fadeOut(); 
@@ -133,7 +153,7 @@ define([
         },  
 
         expandFullPageOverlay: function(id) {
-
+            var self = this; 
             var root = id.replace("readMore", ""); 
             var overlaySel = "overlay" + root; 
             var discoverSel = "discover" + root; 
@@ -145,7 +165,9 @@ define([
 
             $("#" + overlaySel).animate({
                 left: "0%"
-                }, 1000, function(){                                                  
+                }, 1000, function(){  
+                    self.disableScrolling();                                                   
+                                                
             });  
 
             $("#discoverVertical").fadeOut();
@@ -154,6 +176,7 @@ define([
         }, 
 
         collapseFullPageOverlay: function(id) {
+
             var self = this; 
             var root = id.replace("readMore", ""); 
             var overlaySel = "overlay" + root; 
@@ -168,13 +191,18 @@ define([
                 }, 750, function(){    
                     $("#discoverVertical").fadeIn();
                     $("#scrollIndicator").fadeIn(); 
-                    $(".navbar").fadeIn();                                                                
+                    $(".navbar").fadeIn();
+                    self.enableScrolling();                                                                 
             });             
         }, 
 
 
         collapseReadMore: function(id) {
+
             var self = this; 
+
+           self.enableScrolling();
+
             var root = id.replace("readMore", ""); 
             var overlaySel = "overlay" + root; 
             var discoverSel = "discover" + root; 
@@ -189,7 +217,7 @@ define([
                 }, 750, function(){      
                     $("#scrollIndicator").fadeIn(); 
                     $(".navbar").fadeIn();  
-                    self.currentReadMoreOverlay = "";  
+    
            });             
         }, 
 
@@ -234,25 +262,16 @@ define([
 
 
         disableScrolling: function() {
-            this.lastHeight = $("body").height(); 
             $('html').css({
                 'overflow': 'hidden',
                 'height': '100%'
-            });
-            $('body').css({
-                'overflow': 'hidden',
-                'height': '100%'
-            });            
+            });        
         }, 
 
         enableScrolling: function() {
             $('html').css({
                 'overflow': 'auto',
                 'height': '100%'
-            }); 
-            $('body').css({
-                'overflow': 'auto',
-                'height': this.lastHeight + 'px'
             }); 
         } 
 
