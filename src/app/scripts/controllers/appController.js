@@ -121,13 +121,7 @@ define([
             var h = $(window).height() - 40 - 36; 
             $(".overlay-inner").css("height",  h+"px"); 
 
-            // if ( $(window).height() < 1200) {
-            //   $("#mainTitle").css("font-size", )  
-            // }
-
-            //{ minFontSize: '10px', maxFontSize: '80px' }
             $("#mainTitle").fitText(1.6, { minFontSize: '10px', maxFontSize: '80px' }); 
-
 
         },
 
@@ -201,7 +195,7 @@ define([
 
             var self = this; 
 
-           self.enableScrolling();
+
 
             var root = id.replace("readMore", ""); 
             var overlaySel = "overlay" + root; 
@@ -217,7 +211,7 @@ define([
                 }, 750, function(){      
                     $("#scrollIndicator").fadeIn(); 
                     $(".navbar").fadeIn();  
-    
+                    self.enableScrolling();
            });             
         }, 
 
