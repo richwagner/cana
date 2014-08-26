@@ -16,7 +16,7 @@ define([
 
         initialize: function() {
             var self = this; 
-
+            this.currentReadMoreOverlay = ""; 
             this.loaderAnimation = $("#html5Loader").LoaderAnimation({
                 onComplete:function(){
                 }
@@ -95,6 +95,11 @@ define([
                 var top = event.curTop; 
                 console.log("top=" + top); 
 
+                if (self.iPadDevice() && self.currentReadMoreOverlay != "") {
+                    self.collapseReadMore(self.currentReadMoreOverlay); 
+                }
+
+
                 if ((top >= 700 && top < 1002) || (top < 7000 && top > 6000)) {
                     if (!self.mainView.discoverView) {
                         self.mainView.addDiscoverContent(); 
@@ -105,7 +110,8 @@ define([
 
 
             }); 
-            this.invalidateLayout();                
+            this.invalidateLayout();         
+
             this.parallaxScroller.refresh(); 
         },  
 
@@ -123,9 +129,26 @@ define([
 
             $("#mainTitle").fitText(1.6, { minFontSize: '10px', maxFontSize: '80px' }); 
 
+            if (this.iPadDevice()) {
+                $(".discover-text").css("font-size", "44px"); 
+                $(".section-page").css("width", "70%")
+                $(".section-page p").css("font-size", "20px");
+                $(".connect-block").css("width", "90%");
+                $(".connect-block p").css("font-size", "12px");
+                $(".col p").css("font-size", "13px");
+                $(".content-overlay").css("font-size", "13px");
+                $(".content-overlay h2").css("margin-top", "20px");
+                $(".overlay-inner").css("margin-top", "20px");
+                $(".overlay-inner").css("margin-left", "15px");
+                $(".overlay-inner").css("margin-right", "15px");
+
+                $(".desktop-only").remove();
+            }
+
         },
 
         expandReadMore: function(id) {
+            this.currentReadMoreOverlay = id; 
             var self = this; 
             var root = id.replace("readMore", ""); 
             var overlaySel = "overlay" + root; 
@@ -267,10 +290,44 @@ define([
                 'overflow': 'auto',
                 'height': '100%'
             }); 
-        } 
+        }, 
 
 
+        tabletDevice: function() {
+            var ipadTest = /ipad/i.test(navigator.userAgent.toLowerCase());
+            var androidTest = /Android/i.test(navigator.userAgent.toLowerCase());
 
+            if (ipadTest == true) {
+                return true; 
+            } 
+            else if (androidTest) {
+                 return true; 
+            }
+            else {
+                return false; 
+            }
+        }, 
+
+        iPadDevice: function() {
+            var ipadTest = /ipad/i.test(navigator.userAgent.toLowerCase());
+
+            if (ipadTest == true) {
+                return true; 
+            } 
+            else {
+                return false; 
+            }
+        }, 
+
+        androidDevice: function() {
+            var androidTest = /Android/i.test(navigator.userAgent.toLowerCase());
+            if (androidTest) {
+                 return true; 
+            }
+            else {
+                return false; 
+            }
+        }          
 
 
     });

@@ -249,7 +249,6 @@ body {
     overflow-y: scroll; 
     overflow-x: hidden; 
     position: relative; 
-    //width: 100%; 
     height: 100%; 
     margin: 50px 30px 0 30px; 
 }
@@ -266,9 +265,6 @@ body {
     font-size: 18px; 
     &.full-page {
         width: 100%;
-        //background:url(../images/content-full-yellow-bg.png) no-repeat;
-        //background-size: 100% 100%;  
-        //color: $darkGray; 
         .col {
             float: left; 
             width: 48%; 
@@ -357,8 +353,6 @@ body {
 }
 
 .connect-block {
-    //float: left; 
-    //margin-right: 20px;
     display: block; 
     width: 70%; 
     border-radius: 10px; 
