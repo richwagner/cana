@@ -129,7 +129,7 @@ define([
 
             $("#mainTitle").fitText(1.6, { minFontSize: '10px', maxFontSize: '80px' }); 
 
-            if (this.iPadDevice()) {
+            if (this.iPadDevice() || $(window).width() < 1200) {
                 $(".discover-text").css("font-size", "44px"); 
                 $(".section-page").css("width", "70%")
                 $(".section-page p").css("font-size", "20px");
