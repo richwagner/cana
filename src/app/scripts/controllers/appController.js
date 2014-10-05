@@ -142,6 +142,9 @@ define([
                 $(".overlay-inner").css("margin-left", "15px");
                 $(".overlay-inner").css("margin-right", "15px");
 
+                $(".square-button").css("width", "40%");
+                $(".square-button").css("font-size", "20px");
+
                 $(".desktop-only").remove();
             }
 
