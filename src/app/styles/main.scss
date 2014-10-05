@@ -126,7 +126,7 @@ body {
 
 #connectContent {
     z-index: $level3001;   
-    min-height: 1700px; 
+    min-height: 2200px; 
 }
 
 #serveBackground {
@@ -276,7 +276,7 @@ body {
                 font-size: 16px; 
             }
             &.large-text {
-                font-size: 20px; 
+                font-size: 18px; 
             }
         }        
     }
@@ -355,10 +355,10 @@ body {
 
 .connect-block {
     display: block; 
-    width: 70%; 
+    width: 80%; 
     border-radius: 10px; 
     border: 1px solid #ffffff; 
-    padding: 15px;  
+    padding: 20px;  
     margin-bottom: 20px; 
     p {
         font-size: 16px; 

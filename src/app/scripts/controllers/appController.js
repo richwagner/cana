@@ -145,6 +145,10 @@ define([
                 $(".desktop-only").remove();
             }
 
+            // Temp 
+            $(".desktop-only").remove();
+
+
         },
 
         expandReadMore: function(id) {
