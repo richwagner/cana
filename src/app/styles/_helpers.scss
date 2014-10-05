@@ -1,3 +1,43 @@
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;  
+  @media (max-width: 1150px ) { //and (min-height: 650px)
+    font-size: ($sizeValue * 7) + px;
+    font-size: ($sizeValue * .7) + rem;
+  }
+  @media (max-height: 650px) {
+    font-size: ($sizeValue * 7) + px;
+    font-size: ($sizeValue * .7) + rem;
+  }
+}
+
+@mixin no-select() {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;  
+}
+
+@mixin background-poster($image) {
+    background: url($image) no-repeat center center; // fixed
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+}
+
+@mixin cta() {
+    cursor: pointer; 
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;  
+}
+
 @mixin responsiveRule($point) {
   @if $point == default {
     @media (max-width: 1600px) { @content; }

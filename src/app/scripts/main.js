@@ -41,13 +41,50 @@ require.config({
 
 require([
     'backbone',
-    'controllers/appController'    
-], function (Backbone, AppController) {
+    'controllers/appController', 
+    'controllers/mobileAppController',        
+], function (Backbone, AppController, MobileAppController) {
 
-    window.APP = {
-        appController: new AppController()
-    };  
+  var isMobile = false;
 
-    Backbone.history.start();
+    // Original but causes Android tablets to be considered mobile 
+    // if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    //     isMobile = true; 
+    // }
+
+    var mobileFlag = ( navigator.userAgent.match(/webOS/i)||navigator.userAgent.match(/iPhone/i)||navigator.userAgent.match(/iPod/i)||navigator.userAgent.match(/BlackBerry/i)||navigator.userAgent.match(/Windows Phone/i));
+    var androidFlag = /android/i.test(navigator.userAgent.toLowerCase());
+    var mobileTextFlag = /mobile/i.test(navigator.userAgent.toLowerCase());
+
+    if (mobileFlag) {
+        isMobile = true;     
+    }
+    //http://googlewebmastercentral.blogspot.com/2011/03/mo-better-to-also-detect-mobile-user.html
+    else if (androidFlag && mobileTextFlag) {
+        isMobile = true;
+    }
+
+    //*************************************
+    // Mobile 
+    //*************************************   
+    if (isMobile) {
+        window.APP = {
+            isMobile: true, 
+            mobileAppController: new MobileAppController()
+        };    
+    }
+    //*************************************
+    // Desktop  
+    //*************************************           
+    else {
+        window.APP = {
+            appController: new AppController()
+        };
+
+        APP.appController.parallaxScroller.setScrollTop(0); 
+
+        Backbone.history.start();
+
+    }
 
 });
