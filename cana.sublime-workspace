@@ -1,0 +1,1643 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"hidden  (value)"
+			],
+			[
+				"over",
+				"overflow-x:   (property)"
+			],
+			[
+				"overfl",
+				"overflow-x"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"thi",
+				"thumbHeight"
+			],
+			[
+				"expand",
+				"expandSearchBox"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-position-x"
+			],
+			[
+				"wi",
+				"width:   (property)"
+			],
+			[
+				"min",
+				"min-width:   (property)"
+			],
+			[
+				"fade",
+				"fadeOut  (function)"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"res",
+				"resourceType"
+			],
+			[
+				"show",
+				"showView"
+			],
+			[
+				"view",
+				"viewName"
+			],
+			[
+				"curr",
+				"currentView"
+			],
+			[
+				"init",
+				"initAutocomplete"
+			],
+			[
+				"ex",
+				"expandedSearch"
+			],
+			[
+				"sel",
+				"selectionMade"
+			],
+			[
+				"raw",
+				"rawBodyCopy"
+			],
+			[
+				"reso",
+				"resourceId"
+			],
+			[
+				"app",
+				"appController"
+			],
+			[
+				"a",
+				"autocomplete"
+			],
+			[
+				"get",
+				"getResourceById"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"chapter",
+				"chapterId"
+			],
+			[
+				"cha",
+				"chapterOffset"
+			],
+			[
+				"hal",
+				"halfWidth"
+			],
+			[
+				"chapt",
+				"chapterId"
+			],
+			[
+				"white",
+				"white-space"
+			],
+			[
+				"getChap",
+				"getChapterLinkMarkup"
+			],
+			[
+				"secti",
+				"sectionId"
+			],
+			[
+				"tool",
+				"tooltip"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"backgroun",
+				"background-image:   (property)"
+			],
+			[
+				"scroll",
+				"scrollbarSize"
+			],
+			[
+				"current",
+				"currentSlideIndex"
+			],
+			[
+				"loatio",
+				"locationid"
+			],
+			[
+				"reg",
+				"regionString"
+			],
+			[
+				"render",
+				"renderMap"
+			],
+			[
+				"map",
+				"mapRegion"
+			],
+			[
+				"locati",
+				"locationsLoaded"
+			],
+			[
+				"loca",
+				"locationsLoaded"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"mapd",
+				"mapSlideToggleMode"
+			],
+			[
+				"content-",
+				"content-inner"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"oveflow",
+				"overflow-y"
+			],
+			[
+				"rend",
+				"renderSlideProperty"
+			],
+			[
+				"re",
+				"resource"
+			],
+			[
+				"row",
+				"rowCount"
+			],
+			[
+				"with",
+				"width"
+			],
+			[
+				"inline",
+				"inline-block  (value)"
+			],
+			[
+				"resource",
+				"resourceRoute"
+			],
+			[
+				"pend",
+				"pendingResourceCall"
+			],
+			[
+				"an",
+				"animationInProgress"
+			],
+			[
+				"gotoS",
+				"gotoSlide"
+			],
+			[
+				"sto",
+				"storyId"
+			],
+			[
+				"select",
+				"selectSectionLink"
+			],
+			[
+				"stor",
+				"storyName"
+			],
+			[
+				"foote",
+				"footerVisible"
+			],
+			[
+				"storie",
+				"storiesLoaded"
+			],
+			[
+				"slides",
+				"slidesLoaded"
+			],
+			[
+				"Diff",
+				"DiffExpert2"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"create",
+				"createSlide"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"isAnd",
+				"isAndroidDevice"
+			],
+			[
+				"remove",
+				"removeYouTubePlayer"
+			],
+			[
+				"WEB",
+				"WEB_ONLY"
+			],
+			[
+				"cont",
+				"contentVideo"
+			],
+			[
+				"file",
+				"filename  (variable)"
+			],
+			[
+				"splash",
+				"splashVideo"
+			],
+			[
+				"slide",
+				"slideShowPos"
+			],
+			[
+				"slideSh",
+				"slideShowTimerId"
+			],
+			[
+				"next",
+				"nextPos"
+			],
+			[
+				"sli",
+				"slideShowPos"
+			],
+			[
+				"nex",
+				"nextPos"
+			],
+			[
+				"wake",
+				"wakeRequested"
+			],
+			[
+				"N",
+				"NATIVE_IPAD"
+			],
+			[
+				"doc",
+				"docViewerMode"
+			],
+			[
+				"na",
+				"NATIVE_IPAD"
+			],
+			[
+				"pefr",
+				"performSlideShowStep"
+			],
+			[
+				"expandable",
+				"expandable-box"
+			],
+			[
+				"sk",
+				"skrollr"
+			],
+			[
+				"curre",
+				"currentSection"
+			],
+			[
+				"lean",
+				"resetLearnMoreView"
+			],
+			[
+				"tr",
+				"triggerReset"
+			],
+			[
+				"high",
+				"highEnd"
+			],
+			[
+				"low",
+				"lowEnd"
+			],
+			[
+				"hi",
+				"highStart"
+			],
+			[
+				"med",
+				"media-viewer-header"
+			],
+			[
+				"bott",
+				"border-bottom:   (property)"
+			],
+			[
+				"em",
+				"embed	Tag"
+			],
+			[
+				"webkit-padding",
+				"webkit-padding-start"
+			],
+			[
+				"font-se",
+				"font-style"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"lar",
+				"learnMoreView"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"bac",
+				"background-color:   (property)"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"layerB",
+				"layerBase"
+			],
+			[
+				"add",
+				"addClass  (function)"
+			],
+			[
+				"initial",
+				"initialView"
+			],
+			[
+				"fut",
+				"futureLanPortsInitialized  (variable)"
+			],
+			[
+				"futureLan",
+				"futureLanPortsInitialized"
+			],
+			[
+				"futur",
+				"futureStateIsDirty"
+			],
+			[
+				"handl",
+				"handleLeft"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"is",
+				"isFirefox"
+			],
+			[
+				"rand",
+				"randomY"
+			],
+			[
+				"bounda",
+				"boundary"
+			],
+			[
+				"getRan",
+				"getRandomNumber"
+			],
+			[
+				"getR",
+				"getRandomNumber"
+			],
+			[
+				"getRa",
+				"getRandomBoundary"
+			],
+			[
+				"cur",
+				"currentPointerIndex"
+			],
+			[
+				"pro",
+				"productivity"
+			],
+			[
+				"coll",
+				"collapseNav"
+			],
+			[
+				"scena",
+				"scenario1"
+			],
+			[
+				"sce",
+				"scenario1"
+			],
+			[
+				"range",
+				"rangeslider"
+			],
+			[
+				"eff",
+				"efficiencyText6"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/app/scripts/templates/mobileMainView.ejs",
+			"settings":
+			{
+				"buffer_size": 13705,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/styles/_mobile.scss",
+			"settings":
+			{
+				"buffer_size": 2569,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/scripts/views/mobileMainView.js",
+			"settings":
+			{
+				"buffer_size": 2190,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/index.html",
+			"settings":
+			{
+				"buffer_size": 1520,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 335.0,
+		"selected_items":
+		[
+			[
+				"htm",
+				"HTMLPrettify"
+			],
+			[
+				"htmlp",
+				"HTMLPrettify"
+			],
+			[
+				"h",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"json p",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"json ",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"json pr",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 588.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/richwagner/cana-mp/src/app/scripts/templates/discoverView.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Library/Application Support/Sublime Text 2/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/richwagner/cana-mp/src/app/scripts/templates/mainView.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/richwagner/cana-mp/src/app/styles/main.scss",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/richwagner/cana-mp/src/app/scripts/main.js",
+		"/Users/rwagner/Repository/richwagner/cana/src/app/scripts/templates/mobileMainView.ejs",
+		"/Users/rwagner/Repository/richwagner/cana/src/app/styles/_layers.scss",
+		"/Users/rwagner/Repository/richwagner/cana/src/app/styles/main.scss",
+		"/Users/rwagner/Repository/richwagner/cana/src/app/scripts/templates/mainView.ejs",
+		"/Users/rwagner/Repository/richwagner/cana/src/app/scripts/templates/discoverView.ejs",
+		"/Users/rwagner/Repository/richwagner/cana/src/app/scripts/controllers/appController.js",
+		"/Users/rwagner/Repository/richwagner/cana/src/app/styles/_helpers.scss",
+		"/Users/rwagner/Repository/richwagner/cana/src/app/styles/_global.scss",
+		"/Users/rwagner/Repository/richwagner/cana/src/Gruntfile.js",
+		"/Users/rwagner/Repository/richwagner/cana/src/app/scripts/main.js",
+		"/Users/rwagner/Repository/richwagner/cana/src/app/scripts/controllers/mobileAppController.js",
+		"/Users/rwagner/Repository/richwagner/cana/src/app/scripts/views/mobileMainView.js",
+		"/Users/rwagner/Repository/richwagner/cana/src/app/index.html",
+		"/Users/rwagner/Repository/richwagner/cana/src/app/styles/_skrollr.scss",
+		"/Users/rwagner/Repository/richwagner/cana/src/app/styles/_fonts.scss",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/controllers/appController.js",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/28_servWhy.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/26_servWhy.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/data/resources.json",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/24_diffCommerce.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/25_servWhy.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/02_intro.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/views/shellView.js",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_slides.scss",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_shell.scss",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/views/slideView.js",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_autocomplete.scss",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/data/slides.json",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_helpers.scss",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_ie8.scss",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/data/stories.json",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_experts.scss",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_resources.scss",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_fancyform.scss",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/data/locations.json",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/shellView.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/views/resourceView.js",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/data/preload.json",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/Gruntfile.js",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/bower.json",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/controllers/appController.js",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/31_servTrials.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/32_servSafety.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/data/slides.json",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/26_servWhy.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/main.scss",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_slides.scss",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_experts.scss",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/30_servAccess.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/29_servObserve.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/27_servWhy.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/25_servWhy.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/resourceView.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/views/resourceView.js",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_resources.scss",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_autocomplete.scss",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/views/slideView.js",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/data/locations.json",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/views/mapDotView.js",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_expandedSearch.scss",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_fancyform.scss",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/main.js",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/views/shellView.js",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/views/expandedSearchView.js",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/bower_components/devbridge-autocomplete/dist/jquery.autocomplete.js",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/shellView.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_shell.scss",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/router.js",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/expandedSearchView.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/expandedSearchView.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_expandedSearch.scss",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/views/expandedSearchView.js",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/index.html",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/main.scss",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/models/searchItem.js",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/bower_components/devbridge-autocomplete/dist/jquery.autocomplete.js",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/main.js",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/resourceView.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/router.js",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/views/tooltipView.js",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_map.scss",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_tooltip.scss",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/10_diffGlobal.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/11_diffGlobal.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/12_diffGlobal.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/13_diffGlobal.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/14_diffGlobal.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/models/location.js",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/tooltipView.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/views/mapSlideView.js",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/views/mapDotView.js",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_typeahead.scss",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/searchItemTemplate.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/models/resource.js",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/bower_components/antiscroll/antiscroll.js",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/bower_components/nanoscroller/bin/index.html",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/21_diffCommerce.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/29_servObserve.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/07_diffInnovatePartner.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/19_diffCommerce.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/08_diffInnovatePartner.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/27_servWhy.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/20_diffCommerce.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/17_diffTech.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_antiscroll.scss",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/16_diffTech.ejs",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/bower_components/antiscroll/antiscroll.css",
+		"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/styles/_nanoscroller.scss",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/16_diffTech.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/17_diffTech.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/21_diffCommerce.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/08_diffInnovatePartner.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/07_diffInnovatePartner.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/09_diffGlobal.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/10_diffGlobal.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/11_diffGlobal.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/12_diffGlobal.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/13_diffGlobal.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/14_diffGlobal.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/19_diffCommerce.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/20_diffCommerce.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/24_diffCommerce.ejs",
+		"/Volumes/MacBook Pro HD/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts/templates/slides/28_servWhy.ejs"
+	],
+	"find":
+	{
+		"height": 92.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/rwagner/Repository/paraxel/pxl-multimedia-app/src/app/scripts",
+			"<open files>,/Users/rwagner/Repository/bostongroup/bgr-raytheon-cyber/src/app/scripts,/Users/rwagner/Repository/bostongroup/bgr-raytheon-cyber/src/app/bower_components",
+			"<open files>,/Users/rwagner/Repository/bostongroup/bgr-raytheon-cyber/src/app/scripts",
+			"<open files>,/Users/rwagner/Repository",
+			"<open files>,/Users/rwagner/Repository/alu/alu-court-roi/app/scripts,/Users/rwagner/Repository/alu/alu-court-roi/app/styles",
+			"<open files>,/Users/rwagner/Repository/alu/alu-court-roi/app/scripts",
+			"<open files>,/Users/rwagner/Repository/alu/alu-court-roi/app",
+			"<open files>",
+			"/Users/rwagner/Repository/bostongroup/tbg-hsri-calc/app/scripts,/Users/rwagner/Repository/bostongroup/tbg-hsri-calc/app/styles",
+			"/Users/rwagner/Repository/bostongroup/tbg-hsri-calc/app/scripts",
+			"/Volumes/MacBook Pro HD/Users/rwagner/Repository/bostongroup/tbg-hsri-calc/app/",
+			"/Volumes/MacBook Pro HD/Users/rwagner/Repository/bostongroup/tbg-hsri-calc/app/scripts",
+			"/Volumes/MacBook Pro HD/Users/rwagner/Repository/maark/maa-s3-client/app",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"vertical",
+			"footer",
+			"scroll",
+			"scroll;",
+			"scrollaauauto",
+			"scroll",
+			"font-size",
+			"connectCont",
+			"connect-b",
+			"desktop-only",
+			"chapter",
+			"coho",
+			"smarter",
+			"1px",
+			"two-col-",
+			"decision pa",
+			"showView",
+			"3px",
+			"moveCurrentSlideIntoView",
+			"gotoCha",
+			"chapter-",
+			"chapterNavigator",
+			"chapter-l",
+			"chapter-li",
+			"chapter-",
+			"searchField",
+			"down-a",
+			"section-t",
+			"//pa",
+			"getChapters",
+			"chapter-link",
+			"gotoChapter",
+			"cohort",
+			"observation",
+			"section-ti",
+			"&lt; &gt; ",
+			"commercial success, we provide",
+			"chapter",
+			"body-ri",
+			"body-right",
+			"full-with",
+			"h5",
+			"policy makers through",
+			"title-container",
+			"font-size(6.",
+			"body-left-li",
+			"late phas",
+			"adjus",
+			"setOpt",
+			"options",
+			"adjustS",
+			"onAdjust",
+			"el.val()",
+			"input",
+			"par",
+			"clearSearchB",
+			"button",
+			"showv",
+			"innovative",
+			"resource",
+			"open",
+			"RETURN",
+			"keyCode",
+			"moveCurrentSlideIntoView",
+			"selectSectionLink",
+			"getStory",
+			"storyCollection",
+			"section-li",
+			"#tool",
+			"();\n",
+			"#tool",
+			"updateCaretPosition",
+			"hideTooltip",
+			"hovering",
+			"Africa",
+			"createSlideView",
+			"toggleMapSlide",
+			"closed",
+			"empty",
+			"tt-dataset-searchItems",
+			"searchItems",
+			"white pap",
+			"Scrollbar",
+			"chart",
+			"scrollbarSize",
+			"overflow-",
+			"bodyCopy-container",
+			"animate",
+			"left-col",
+			"overflow",
+			"animate",
+			"moveCurrentSlideIntoView",
+			"gotosl",
+			"gotoSl",
+			"footer",
+			"chart",
+			"<br/>",
+			"over 40",
+			"chart",
+			"Technology",
+			"Technology an",
+			"Technology anf",
+			"APP.ut",
+			"utils",
+			"MAARK",
+			"preload",
+			"previ",
+			"next",
+			"afric",
+			"middle e",
+			"\");\n",
+			"getSectionLinkMarkup",
+			"footer",
+			"body-left-lin",
+			".resources",
+			"driver",
+			"-200px",
+			"margin-top: 131px;",
+			"{;",
+			"g \"",
+			" \"",
+			"px",
+			"   \"",
+			"/   ",
+			"jquery",
+			"MAARK",
+			"overflow-y: auto",
+			"25%"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"2px",
+			"&lt;br/p&gt;",
+			"g\"",
+			"\"",
+			"/",
+			"overflow-y: auto;",
+			"&lt",
+			"showView(\"resourceList\")",
+			"",
+			"createSlideView",
+			"//console.log(",
+			"idleIntervalId",
+			"slideShowTimerId",
+			"slideShowTimer",
+			"learn-more-button no-select\"",
+			"media-list",
+			"-482",
+			"future",
+			"left: 630px",
+			"left: 10px",
+			"WLAN_DEPLOYMENT",
+			"SMALLEST_PORT_PER_DESK",
+			"LAN_PORT_DIVIDER",
+			"HOMEWORKER_DIVIDER",
+			"DEPRECIATION",
+			"ADMIN_SAVINGS",
+			"RADIO_COVERAGE",
+			"OFFICE_SPACE",
+			"FTE_YEAR_COST",
+			"LAN_DEPLOYMENT",
+			"ADMIN_PER_USER",
+			"HW_MAINTENANCE",
+			"NEW_APP_PRICE",
+			"BB_COST",
+			"LAN_PRICE_DECREASE",
+			"NEW_LANPORT_PRICE",
+			"this.",
+			"32",
+			"31",
+			"30",
+			"33",
+			"2",
+			"1",
+			"g",
+			"f",
+			"e",
+			"d",
+			"c",
+			"7",
+			"productGroup\": \"Protein Biology - Pierce G2 Fast Blotter\"",
+			"getEmployerTitleRow",
+			"getEmployerGroupHeaderMarkup",
+			"drugDeductible",
+			"medicalDeductible",
+			"employer-medical-accordion",
+			"\"moopDental\"",
+			"\"moopMedical\"",
+			"lowest-cost-section",
+			"collections/plans",
+			"models/plan",
+			"plan",
+			"Plans",
+			"Plan",
+			"familyTier",
+			"FamilyTier",
+			"",
+			"baseRate",
+			"h4",
+			"S3.userManager.getCurrentUser()",
+			"STHREE",
+			"controllers/appController",
+			"S3",
+			"API",
+			"AppUser",
+			"tff",
+			"getWallpaperedSlidesData",
+			"getWallpaperContainer(",
+			"getWallpaperedSlides",
+			"getActiveTour()",
+			"getTour()",
+			"getToggleButton()",
+			"getNavigation()",
+			"getWallpaper()",
+			"getWallpapers()",
+			"getBrandButton",
+			"getNavigation",
+			"getWallpaper",
+			"getCurrentWallpaper",
+			"getTitle()",
+			"getWallpapers()",
+			"#brand_",
+			"id='\" + getViewPrefix() + \"",
+			"id=\" + getViewPrefix() + \"",
+			"getView()",
+			"1.2",
+			"place",
+			"Place",
+			"MusicTrackAppleProvider",
+			"public",
+			"metaText",
+			"MetaTextRequest",
+			"MetaTextCollectionSummary",
+			"MetaTextObject",
+			"MetaTextResult",
+			" = $appRecord[\"\"];",
+			"$this->",
+			" $r",
+			" = $element->;",
+			"$this->",
+			" = $restaurantRecord[\"\"];",
+			"$this->",
+			"	    $stmt->bindParam(':",
+			"app.addRequiredField",
+			"allowUserEdits",
+			"(app.allowUserEdits",
+			"renderTopLeadsFilterDropdown",
+			"displayTopLeadsFilterDropdown",
+			"app.",
+			"toggleSaveButton",
+			"Update",
+			"",
+			"var ",
+			"app.currentUser",
+			"",
+			"../images",
+			"../",
+			"",
+			"height"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/app/scripts/templates/mobileMainView.ejs",
+					"settings":
+					{
+						"buffer_size": 13705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								428,
+								428
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"function_name_status_row": 6,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/app/styles/_mobile.scss",
+					"settings":
+					{
+						"buffer_size": 2569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								88
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"function_name_status_row": 3,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/app/scripts/views/mobileMainView.js",
+					"settings":
+					{
+						"buffer_size": 2190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2138,
+								2138
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"function_name_status_row": 78,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 290.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/app/index.html",
+					"settings":
+					{
+						"buffer_size": 1520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1315,
+								1330
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"function_name_status_row": 30,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 171.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true
+}

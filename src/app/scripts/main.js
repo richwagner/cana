@@ -80,11 +80,10 @@ require([
         window.APP = {
             appController: new AppController()
         };
-
         APP.appController.parallaxScroller.setScrollTop(0); 
-
-        Backbone.history.start();
-
     }
+
+
+    Backbone.history.start();
 
 });

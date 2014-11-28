@@ -1,0 +1,114 @@
+#mobileContainer {
+    background-color: $black;   
+    z-index: $level1000;     
+    //overflow-x: hidden; 
+
+    .mobile-page {
+        border-top: 2px solid $white; 
+        padding: 20px 20px 20px 20px; 
+    }
+
+    h1, h2 {
+        font-size: 28px; 
+        font-family: $boldFont; 
+        text-transform: uppercase;  
+    }
+
+    p {
+        font-size: 16px; 
+        font-family: $lightFont; 
+        span {
+            font-family: $boldFont; 
+        }
+    }
+
+    .connect-block {
+        width: 100%;
+        border: 0; 
+        padding: 0;
+        p {
+            margin-left: 70px; 
+        }
+    }
+
+    .mobile-icon {
+        margin-right: 10px; 
+    }
+
+    .square-button {
+        display: block;
+        margin-right: 0px; 
+        margin-bottom: 20px;
+        width: 90%;        
+    }
+
+    .full-screen-image {
+        width: 90%; 
+        margin: 10px 0px 10px 0px; 
+        border: 1px solid $white; 
+    }
+
+
+}
+
+#mobileHomePage {
+    background:url(../images/home-bg.jpg) no-repeat;
+    background-size: 100% auto; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+    z-index: $level1000;   
+}
+
+#mobileNav {
+    z-index: $level1000; 
+    text-align: center; 
+    padding-top: 3px; 
+    position: fixed; 
+    left: 0px; 
+    top: 3px; 
+    font-family: $boldFont; 
+    color: $white; 
+    font-size: 16px; 
+    text-transform: uppercase; 
+    background-color: $black; 
+    &.slideable {
+        position: absolute; 
+        top: 86px; 
+    } 
+    .mobile-menu-closed {
+        display: block; 
+        height: 24px; 
+        width: 72px; 
+        .nav-down {
+            width: 12px; 
+            height: 10px; 
+            margin-left: 3px; 
+            display: inline-block; 
+            background:url(../images/m-nav-arrow.png) no-repeat;
+            background-size:100% 100%;          
+        }        
+    }
+    .mobile-menu-opened {
+        text-align: left; 
+        display: none;
+        width: 255px; 
+        .mobile-menu-item {
+            display: block;
+            height: 44px; 
+            line-height: 44px; 
+            padding-left: 10px;  
+            border-bottom: 1px solid $white; 
+            .nav-up {
+                width: 12px; 
+                height: 10px; 
+                background:url(../images/m-nav-arrow-up.png) no-repeat;
+                background-size:100% 100%;  
+                float:right;
+                margin-top: 10px;
+                margin-right    : 10px;          
+            }            
+        }
+    }
+}

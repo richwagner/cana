@@ -18,6 +18,23 @@ define([
             var self = this; 
             this.menuExpanded = false; 
             this.render(); 
+
+            $("#mobileNav").on("touchstart", function(event) {
+                event.preventDefault(); 
+                event.stopPropagation();                    
+                self.toggleMenu();
+            }); 
+
+            $(".mobile-menu-item").on("touchstart", function(event) {
+                self.linkClickHandler(event);
+            }); 
+
+
+               // $('body').animate({
+               //      scrollTop: $("#mobileDiscoverPage").offset().top
+               //  }, 2000);
+
+
         },
 
         render: function() {
@@ -53,13 +70,13 @@ define([
             event.stopPropagation();      
             var self = this;       
             var id = event.currentTarget.id; 
-            
-
+            var target = id.replace("Link", "Page"); 
+            if (target != "mobileClosePage") {
+                $("#"+target).get(0).scrollIntoView();
+            }
             setTimeout(function(){
                 self.toggleMenu();  
-            }, 40); 
-
-
+            }, 200); 
         }
 
     }); 
