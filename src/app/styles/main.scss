@@ -306,6 +306,9 @@ body {
     p {
         margin-left: 70px; 
         margin-right: 50px; 
+        span {
+            font-family: $boldFont; 
+        }
     }
     .close-button, .full-close-button {
         cursor: pointer; 

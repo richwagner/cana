@@ -16,7 +16,8 @@ define([
             'click .close-button' : 'closeButtonClickHandler', 
             'click .full-close-button' : 'fullCloseButtonClickHandler', 
             'click #readMoreSOF' : 'statementOfFaithClickHandler', 
-            'click #readMoreWhyCana' : 'whyCanaClickHandler'                        
+            'click #readMoreWhyCana' : 'whyCanaClickHandler', 
+            'click #readMoreAboutPastors' : 'aboutPastorsClickHandler'                                    
         }, 
 
 
@@ -53,6 +54,12 @@ define([
         }, 
 
         whyCanaClickHandler: function(event) {
+            event.preventDefault(); 
+            var id = event.currentTarget.id;
+            APP.appController.expandFullPageOverlay(id); 
+        }, 
+
+        aboutPastorsClickHandler:  function(event) {
             event.preventDefault(); 
             var id = event.currentTarget.id;
             APP.appController.expandFullPageOverlay(id); 
